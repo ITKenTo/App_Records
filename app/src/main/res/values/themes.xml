@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recorder" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorPrimary">@color/gray</item>-->
+        <item name="rippleColor" type="">@color/grayDarkDisable</item>
+    </style>
+    <style name="Theme.Recorder" parent="Base.Theme.Recorder" />
+
+    <style name="DialogAnimation" >
+
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="SearchInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/gray</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="boxCornerRadiusTopStart">36dp</item>
+        <item name="boxCornerRadiusTopEnd">36dp</item>
+        <item name="boxCornerRadiusBottomStart">36dp</item>
+        <item name="boxCornerRadiusBottomEnd">36dp</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="startIconDrawable">@drawable/round_search_24</item>
+        <item name="startIconTint">@color/colorText</item>
+    </style>
+</resources>
